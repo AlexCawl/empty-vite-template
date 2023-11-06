@@ -15,7 +15,7 @@
 .generate-grid-col-span(@n, @i: 1) when (@i =< @n) {
   .generate-grid-col-span(@n, (@i + 1));
 
-  col-span-@{i} {
+  .col-span-@{i} {
     grid-column: span @i / span @i;
   }
 }
@@ -23,7 +23,7 @@
 .generate-grid-row-span(@n, @i: 1) when (@i =< @n) {
   .generate-grid-row-span(@n, (@i + 1));
 
-  row-span-@{i} {
+  .row-span-@{i} {
     grid-row: span @i / span @i;
   }
 }

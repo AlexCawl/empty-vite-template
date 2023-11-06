@@ -1,3 +1,6 @@
+@import "src/utils/text";
+@import "src/utils/media";
+
 .title {
   .text-h2();
   display: flex;
@@ -14,7 +17,7 @@
   padding: 32px;
   border-radius: var(--radius-l);
   background-color: var(--base-01);
-  position:relative;
+  position: relative;
 
   &__title {
     .text-h4();
@@ -26,15 +29,6 @@
     margin: 0;
   }
 
-  &__accordion {
-    summary{
-      .text-h4();
-      list-style: url("/assets/icons/accordion_icon.svg") inside;
-    }
-
-
-  }
-
   &__number {
     display: flex;
     justify-content: center;
@@ -44,7 +38,6 @@
     border-radius: var(--radius-m);
     font-size: 24px;
     position: relative;
-    //вопрос как правильно спозиционировать block info и number
     bottom: 56px;
     width: 56px;
     height: 56px;
@@ -82,12 +75,12 @@
   justify-content: center;
 }
 
-.firstTitle{
+.firstTitle {
   margin-bottom: 12px;
 }
 
-.icon{
+.icon {
   width: 36px;
   height: 36px;
-  margin-bottom:44px
+  margin-bottom: 44px
 }

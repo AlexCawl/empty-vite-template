@@ -88,25 +88,22 @@
     &__name {
       margin-right: 10px;
       color: var(--text-link);
-      .transition(color, 2s);
+      .transition(color, 1s);
     }
 
     &__icon {
       display: flex;
-
-      & svg {
-        fill: var(--text-link);
-        .transition(fill, 2s);
-      }
+      fill: var(--text-link);
+      .transition(fill, 1s);
     }
 
     &:hover {
       & .login-btn__name {
-        color: black;
+        color: blueviolet;
       }
 
-      & .login-btn__icon svg {
-        fill: black;
+      & .login-btn__icon {
+        fill: blueviolet;
       }
     }
   }

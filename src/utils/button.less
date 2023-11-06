@@ -1,3 +1,5 @@
+@import "src/utils/animation";
+
 .button {
   display: flex;
   align-items: center;
@@ -11,4 +13,9 @@
   background: var(--primary) none;
   border-radius: var(--radius-s);
   margin-bottom: 64px;
+  .transition(background, 1s);
+
+  &:hover {
+    background: var(--primary-hover);
+  }
 }
